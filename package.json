@@ -12,6 +12,9 @@
         "tailwind": "npx tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/style.css --watch"
     },
     "dependencies": {
+        "autoprefixer": "^10.4.13",
+        "postcss": "^8.4.21",
+        "postcss-cli": "^10.1.0",
         "vue": "^3.2.45",
         "vue-router": "^4.1.6"
     },

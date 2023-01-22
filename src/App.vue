@@ -1,9 +1,14 @@
 <template>
     <header>
-        <div class="wrapper">
-            <nav>
-                <RouterLink to="/">Home</RouterLink>
-            </nav>
+        <div>
+            <div>
+                <nav>
+                    <RouterLink to="/">Memorotes</RouterLink>
+                </nav>
+                <nav>
+                    <RouterLink to="/member">Member</RouterLink>
+                </nav>
+            </div>
         </div>
     </header>
 
